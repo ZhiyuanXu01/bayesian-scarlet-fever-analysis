@@ -1,0 +1,72 @@
+# R and RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj.user
+
+# Local configuration and credentials
+.Renviron
+.env
+config/config.R
+config/local*
+*.key
+*.pem
+
+# Restricted individual-level health data
+data/raw/
+data/restricted/
+data/private/
+data/interim/
+data/processed/
+data/*.csv
+data/*.tsv
+data/*.txt
+data/*.rds
+data/*.rda
+data/*.RData
+data/*.parquet
+data/*.feather
+
+# Original thesis data filenames
+hb.csv
+hn.csv
+hb_sheet3.csv
+HB.tsv
+HN.tsv
+scarlet_fever_HB_HN_combined.csv
+*Scarlet Fever Files*
+
+# Large environmental source files
+*.nc
+*.nc4
+*.tif
+*.tiff
+*.grd
+*.gpkg
+
+# Model objects and temporary computation files
+*.rds
+*.RDS
+*.rda
+*.RData
+*.graph
+*.tmp
+*.temp
+R_Terra_Temp/
+tmp/
+temp/
+
+# Generated outputs
+results/*
+!results/README.md
+figures/*
+!figures/README.md
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Local editor metadata
+.reasonix/

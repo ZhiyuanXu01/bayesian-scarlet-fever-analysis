@@ -1,0 +1,13 @@
+## Status
+
+Work in progress.
+
+- [x] Repository and privacy-safe project structure
+- [ ] Data contract and configuration
+- [ ] Descriptive-analysis module
+- [ ] Bayesian conditional Poisson models
+- [ ] Pooled B-DLNM module
+- [ ] Exploratory spatial B-DLNM module
+- [ ] Interaction, subgroup, and sensitivity modules
+- [ ] Selected aggregate results and figures
+- [ ] Documentation and reproducibility checks
