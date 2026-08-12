@@ -70,3 +70,6 @@ Thumbs.db
 
 # Local editor metadata
 .reasonix/
+
+# Public documentation derived without individual-level records
+!data/data_dictionary.csv
