@@ -62,6 +62,9 @@ results/*
 !results/README.md
 figures/*
 !figures/README.md
+!results/conditional_poisson_models.csv
+!figures/conditional_poisson_single_lag_rr.png
+!figures/conditional_poisson_moving_average_rr.png
 
 # Logs and operating-system files
 *.log

@@ -11,6 +11,8 @@ individual-level study records.
   summaries;
 - `exposure_summary.csv`: descriptive statistics for current-day environmental
   exposures.
+- `conditional_poisson_models.csv`: posterior relative-risk estimates from 189
+  single-exposure Bayesian conditional Poisson models;
 
 Model estimates will be added as the corresponding analysis modules are
 completed.
