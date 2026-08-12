@@ -1,0 +1,14 @@
+characteristic,category,n,percent,display
+Province,Hubei,11689,40.1,"11,689 (40.1%)"
+Province,Hunan,17458,59.9,"17,458 (59.9%)"
+Sex,Male,17735,60.8,"17,735 (60.8%)"
+Sex,Female,11412,39.2,"11,412 (39.2%)"
+Age group (years),3-6,17616,60.4,"17,616 (60.4%)"
+Age group (years),7-9,6943,23.8," 6,943 (23.8%)"
+Age group (years),0-2,1999,6.9," 1,999 (6.9%)"
+Age group (years),15+,682,2.3,   682 (2.3%)
+Age group (years),10-14,1907,6.5," 1,907 (6.5%)"
+Season,Autumn,6323,21.7," 6,323 (21.7%)"
+Season,Spring,8956,30.7," 8,956 (30.7%)"
+Season,Summer,6447,22.1," 6,447 (22.1%)"
+Season,Winter,7421,25.5," 7,421 (25.5%)"

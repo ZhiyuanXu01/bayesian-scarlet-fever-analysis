@@ -1,3 +1,10 @@
 # Figures
 
-This directory contains selected aggregate figures from the thesis analysis. Figures containing individual-level locations or otherwise disclosive information are excluded.
+This directory contains selected aggregate figures suitable for public
+release.
+
+- `monthly_case_counts.png`: monthly reported case counts with a trailing
+  12-month mean.
+
+Additional model-result figures will be added as the analysis modules are
+completed.

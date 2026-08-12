@@ -73,3 +73,11 @@ Thumbs.db
 
 # Public documentation derived without individual-level records
 !data/data_dictionary.csv
+
+# Selected privacy-safe aggregate outputs
+!results/analysis_overview.csv
+!results/annual_case_counts.csv
+!results/case_characteristics.csv
+!results/exposure_summary.csv
+!results/monthly_case_counts.csv
+!figures/monthly_case_counts.png
