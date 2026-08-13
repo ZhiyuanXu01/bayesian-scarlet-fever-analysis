@@ -13,6 +13,12 @@ individual-level study records.
   exposures.
 - `conditional_poisson_models.csv`: posterior relative-risk estimates from 189
   single-exposure Bayesian conditional Poisson models;
+- `pooled_bdlnm_metrics.csv`: fit diagnostics and computational information for
+  18 pooled Bayesian distributed lag nonlinear models;
+- `pooled_bdlnm_slices.csv`: posterior nonlinear exposure-response estimates at
+  single lag 3 and moving average 4, based on 500 posterior samples;
+- `pooled_bdlnm_surfaces.csv`: posterior-mean exposure-lag-response surfaces
+  across all nine environmental exposures.
 
 Model estimates will be added as the corresponding analysis modules are
 completed.

@@ -9,6 +9,10 @@ release.
   single-day lags 0–10;
 - `conditional_poisson_moving_average_rr.png`: relative-risk estimates for
   cumulative moving-average windows 1–10.
+- `pooled_bdlnm_single_lag3_slices.png`: nonlinear exposure-response curves at
+  single lag 3 with 95% credible intervals;
+- `pooled_bdlnm_mavg4_slices.png`: nonlinear exposure-response curves at moving
+  average 4 with 95% credible intervals.
 
 Additional model-result figures will be added as the analysis modules are
 completed.

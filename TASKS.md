@@ -6,7 +6,7 @@ Work in progress.
 - [x] Data contract and configuration
 - [x] Descriptive-analysis module
 - [x] Bayesian conditional Poisson models
-- [ ] Pooled B-DLNM module
+- [x] Pooled B-DLNM module
 - [ ] Exploratory spatial B-DLNM module
 - [ ] Interaction, subgroup, and sensitivity modules
 - [ ] Selected aggregate results and figures

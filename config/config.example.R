@@ -28,7 +28,7 @@ analysis_config <- list(
   ),
 
   computation = list(
-    inla_num_threads = "12:2",
+    inla_num_threads = "4:1",
     posterior_samples = 500L,
     random_seed = 2026L
   )

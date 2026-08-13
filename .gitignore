@@ -84,3 +84,8 @@ Thumbs.db
 !results/exposure_summary.csv
 !results/monthly_case_counts.csv
 !figures/monthly_case_counts.png
+!results/pooled_bdlnm_metrics.csv
+!results/pooled_bdlnm_slices.csv
+!results/pooled_bdlnm_surfaces.csv
+!figures/pooled_bdlnm_single_lag3_slices.png
+!figures/pooled_bdlnm_mavg4_slices.png
