@@ -4,6 +4,7 @@
 .Ruserdata
 .Rproj.user/
 *.Rproj.user
+Rplots.pdf
 
 # Local configuration and credentials
 .Renviron
@@ -91,3 +92,6 @@ Thumbs.db
 !results/pooled_bdlnm_surfaces.csv
 !figures/pooled_bdlnm_single_lag3_slices.png
 !figures/pooled_bdlnm_mavg4_slices.png
+!results/interaction_spearman_screen.csv
+!results/interaction_models.csv
+!figures/interaction_ratio_heatmap.png

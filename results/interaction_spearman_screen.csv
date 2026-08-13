@@ -1,0 +1,73 @@
+exposure_type,window,window_label,variable_1,exposure_1,term_1,variable_2,exposure_2,term_2,spearman_rho,absolute_rho,n_complete,correlation_cutoff,decision
+lag,3,Single lag 3,t2m,Temperature,t2m_lag3,rh,Relative humidity,rh_lag3,0.0238013241961228,0.0238013241961228,128557,0.7,included
+lag,3,Single lag 3,t2m,Temperature,t2m_lag3,ssr,Solar radiation,ssr_lag3,0.599534548257028,0.599534548257028,128557,0.7,included
+lag,3,Single lag 3,t2m,Temperature,t2m_lag3,uv,Wind speed,uv_lag3,-0.00206522425643445,0.00206522425643445,128557,0.7,included
+lag,3,Single lag 3,t2m,Temperature,t2m_lag3,sp,Surface pressure,sp_lag3,-0.493703981210609,0.493703981210609,128557,0.7,included
+lag,3,Single lag 3,t2m,Temperature,t2m_lag3,tp,Total precipitation,tp_lag3,0.131423544124622,0.131423544124622,128557,0.7,included
+lag,3,Single lag 3,t2m,Temperature,t2m_lag3,PM25,PM2.5,PM25_lag3,-0.436401253792471,0.436401253792471,128557,0.7,included
+lag,3,Single lag 3,t2m,Temperature,t2m_lag3,PM10,PM10,PM10_lag3,-0.34624830115129,0.34624830115129,128557,0.7,included
+lag,3,Single lag 3,t2m,Temperature,t2m_lag3,O3,O3,O3_lag3,0.647385959761198,0.647385959761198,128557,0.7,included
+lag,3,Single lag 3,rh,Relative humidity,rh_lag3,ssr,Solar radiation,ssr_lag3,-0.557965196317219,0.557965196317219,128557,0.7,included
+lag,3,Single lag 3,rh,Relative humidity,rh_lag3,uv,Wind speed,uv_lag3,-0.0698882500118364,0.0698882500118364,128557,0.7,included
+lag,3,Single lag 3,rh,Relative humidity,rh_lag3,sp,Surface pressure,sp_lag3,-0.189871248420705,0.189871248420705,128557,0.7,included
+lag,3,Single lag 3,rh,Relative humidity,rh_lag3,tp,Total precipitation,tp_lag3,0.761777477783597,0.761777477783597,128557,0.7,excluded_high_correlation
+lag,3,Single lag 3,rh,Relative humidity,rh_lag3,PM25,PM2.5,PM25_lag3,-0.237301088536234,0.237301088536234,128557,0.7,included
+lag,3,Single lag 3,rh,Relative humidity,rh_lag3,PM10,PM10,PM10_lag3,-0.364291942371412,0.364291942371412,128557,0.7,included
+lag,3,Single lag 3,rh,Relative humidity,rh_lag3,O3,O3,O3_lag3,-0.414316065149729,0.414316065149729,128557,0.7,included
+lag,3,Single lag 3,ssr,Solar radiation,ssr_lag3,uv,Wind speed,uv_lag3,-0.0706883721290228,0.0706883721290228,128557,0.7,included
+lag,3,Single lag 3,ssr,Solar radiation,ssr_lag3,sp,Surface pressure,sp_lag3,-0.250120937945773,0.250120937945773,128557,0.7,included
+lag,3,Single lag 3,ssr,Solar radiation,ssr_lag3,tp,Total precipitation,tp_lag3,-0.481673888577398,0.481673888577398,128557,0.7,included
+lag,3,Single lag 3,ssr,Solar radiation,ssr_lag3,PM25,PM2.5,PM25_lag3,-0.108406621459934,0.108406621459934,128557,0.7,included
+lag,3,Single lag 3,ssr,Solar radiation,ssr_lag3,PM10,PM10,PM10_lag3,0.0351735745614186,0.0351735745614186,128557,0.7,included
+lag,3,Single lag 3,ssr,Solar radiation,ssr_lag3,O3,O3,O3_lag3,0.781712864453348,0.781712864453348,128557,0.7,excluded_high_correlation
+lag,3,Single lag 3,uv,Wind speed,uv_lag3,sp,Surface pressure,sp_lag3,0.359083376300568,0.359083376300568,128557,0.7,included
+lag,3,Single lag 3,uv,Wind speed,uv_lag3,tp,Total precipitation,tp_lag3,0.0391606357868443,0.0391606357868443,128557,0.7,included
+lag,3,Single lag 3,uv,Wind speed,uv_lag3,PM25,PM2.5,PM25_lag3,-0.0434092752585873,0.0434092752585873,128557,0.7,included
+lag,3,Single lag 3,uv,Wind speed,uv_lag3,PM10,PM10,PM10_lag3,-0.0400070152809867,0.0400070152809867,128557,0.7,included
+lag,3,Single lag 3,uv,Wind speed,uv_lag3,O3,O3,O3_lag3,-0.0444717750110251,0.0444717750110251,128557,0.7,included
+lag,3,Single lag 3,sp,Surface pressure,sp_lag3,tp,Total precipitation,tp_lag3,-0.238827513689488,0.238827513689488,128557,0.7,included
+lag,3,Single lag 3,sp,Surface pressure,sp_lag3,PM25,PM2.5,PM25_lag3,0.409740447952953,0.409740447952953,128557,0.7,included
+lag,3,Single lag 3,sp,Surface pressure,sp_lag3,PM10,PM10,PM10_lag3,0.373847398704324,0.373847398704324,128557,0.7,included
+lag,3,Single lag 3,sp,Surface pressure,sp_lag3,O3,O3,O3_lag3,-0.253142023333835,0.253142023333835,128557,0.7,included
+lag,3,Single lag 3,tp,Total precipitation,tp_lag3,PM25,PM2.5,PM25_lag3,-0.282904128969531,0.282904128969531,128557,0.7,included
+lag,3,Single lag 3,tp,Total precipitation,tp_lag3,PM10,PM10,PM10_lag3,-0.361259789244618,0.361259789244618,128557,0.7,included
+lag,3,Single lag 3,tp,Total precipitation,tp_lag3,O3,O3,O3_lag3,-0.314120713590529,0.314120713590529,128557,0.7,included
+lag,3,Single lag 3,PM25,PM2.5,PM25_lag3,PM10,PM10,PM10_lag3,0.942884963834129,0.942884963834129,128557,0.7,excluded_high_correlation
+lag,3,Single lag 3,PM25,PM2.5,PM25_lag3,O3,O3,O3_lag3,-0.215308740195271,0.215308740195271,128557,0.7,included
+lag,3,Single lag 3,PM10,PM10,PM10_lag3,O3,O3,O3_lag3,-0.0959286594185796,0.0959286594185796,128557,0.7,included
+mavg,4,Moving average 4,t2m,Temperature,t2m_mavg4,rh,Relative humidity,rh_mavg4,0.109773119026277,0.109773119026277,128557,0.7,included
+mavg,4,Moving average 4,t2m,Temperature,t2m_mavg4,ssr,Solar radiation,ssr_mavg4,0.709133700480841,0.709133700480841,128557,0.7,excluded_high_correlation
+mavg,4,Moving average 4,t2m,Temperature,t2m_mavg4,uv,Wind speed,uv_mavg4,-0.000689419937079151,0.000689419937079151,128557,0.7,included
+mavg,4,Moving average 4,t2m,Temperature,t2m_mavg4,sp,Surface pressure,sp_mavg4,-0.497334745427176,0.497334745427176,128557,0.7,included
+mavg,4,Moving average 4,t2m,Temperature,t2m_mavg4,tp,Total precipitation,tp_mavg4,0.245220825484228,0.245220825484228,128557,0.7,included
+mavg,4,Moving average 4,t2m,Temperature,t2m_mavg4,PM25,PM2.5,PM25_mavg4,-0.547121482889435,0.547121482889435,128557,0.7,included
+mavg,4,Moving average 4,t2m,Temperature,t2m_mavg4,PM10,PM10,PM10_mavg4,-0.442133823201606,0.442133823201606,128557,0.7,included
+mavg,4,Moving average 4,t2m,Temperature,t2m_mavg4,O3,O3,O3_mavg4,0.711641602672663,0.711641602672663,128557,0.7,excluded_high_correlation
+mavg,4,Moving average 4,rh,Relative humidity,rh_mavg4,ssr,Solar radiation,ssr_mavg4,-0.402119304181676,0.402119304181676,128557,0.7,included
+mavg,4,Moving average 4,rh,Relative humidity,rh_mavg4,uv,Wind speed,uv_mavg4,-0.101164345205176,0.101164345205176,128557,0.7,included
+mavg,4,Moving average 4,rh,Relative humidity,rh_mavg4,sp,Surface pressure,sp_mavg4,-0.23048817294209,0.23048817294209,128557,0.7,included
+mavg,4,Moving average 4,rh,Relative humidity,rh_mavg4,tp,Total precipitation,tp_mavg4,0.740207555201953,0.740207555201953,128557,0.7,excluded_high_correlation
+mavg,4,Moving average 4,rh,Relative humidity,rh_mavg4,PM25,PM2.5,PM25_mavg4,-0.315843928937279,0.315843928937279,128557,0.7,included
+mavg,4,Moving average 4,rh,Relative humidity,rh_mavg4,PM10,PM10,PM10_mavg4,-0.414134446951834,0.414134446951834,128557,0.7,included
+mavg,4,Moving average 4,rh,Relative humidity,rh_mavg4,O3,O3,O3_mavg4,-0.287695254348955,0.287695254348955,128557,0.7,included
+mavg,4,Moving average 4,ssr,Solar radiation,ssr_mavg4,uv,Wind speed,uv_mavg4,-0.0411218472094254,0.0411218472094254,128557,0.7,included
+mavg,4,Moving average 4,ssr,Solar radiation,ssr_mavg4,sp,Surface pressure,sp_mavg4,-0.330977524087694,0.330977524087694,128557,0.7,included
+mavg,4,Moving average 4,ssr,Solar radiation,ssr_mavg4,tp,Total precipitation,tp_mavg4,-0.200746039310612,0.200746039310612,128557,0.7,included
+mavg,4,Moving average 4,ssr,Solar radiation,ssr_mavg4,PM25,PM2.5,PM25_mavg4,-0.24086779017155,0.24086779017155,128557,0.7,included
+mavg,4,Moving average 4,ssr,Solar radiation,ssr_mavg4,PM10,PM10,PM10_mavg4,-0.0855096758444483,0.0855096758444483,128557,0.7,included
+mavg,4,Moving average 4,ssr,Solar radiation,ssr_mavg4,O3,O3,O3_mavg4,0.818929375486106,0.818929375486106,128557,0.7,excluded_high_correlation
+mavg,4,Moving average 4,uv,Wind speed,uv_mavg4,sp,Surface pressure,sp_mavg4,0.492557323118449,0.492557323118449,128557,0.7,included
+mavg,4,Moving average 4,uv,Wind speed,uv_mavg4,tp,Total precipitation,tp_mavg4,0.0232593161127417,0.0232593161127417,128557,0.7,included
+mavg,4,Moving average 4,uv,Wind speed,uv_mavg4,PM25,PM2.5,PM25_mavg4,0.0246773100792182,0.0246773100792182,128557,0.7,included
+mavg,4,Moving average 4,uv,Wind speed,uv_mavg4,PM10,PM10,PM10_mavg4,0.0311352923043899,0.0311352923043899,128557,0.7,included
+mavg,4,Moving average 4,uv,Wind speed,uv_mavg4,O3,O3,O3_mavg4,-0.0366566978047527,0.0366566978047527,128557,0.7,included
+mavg,4,Moving average 4,sp,Surface pressure,sp_mavg4,tp,Total precipitation,tp_mavg4,-0.277321338414381,0.277321338414381,128557,0.7,included
+mavg,4,Moving average 4,sp,Surface pressure,sp_mavg4,PM25,PM2.5,PM25_mavg4,0.489169027298241,0.489169027298241,128557,0.7,included
+mavg,4,Moving average 4,sp,Surface pressure,sp_mavg4,PM10,PM10,PM10_mavg4,0.438944495579167,0.438944495579167,128557,0.7,included
+mavg,4,Moving average 4,sp,Surface pressure,sp_mavg4,O3,O3,O3_mavg4,-0.296486972459842,0.296486972459842,128557,0.7,included
+mavg,4,Moving average 4,tp,Total precipitation,tp_mavg4,PM25,PM2.5,PM25_mavg4,-0.389049360754242,0.389049360754242,128557,0.7,included
+mavg,4,Moving average 4,tp,Total precipitation,tp_mavg4,PM10,PM10,PM10_mavg4,-0.408361609613312,0.408361609613312,128557,0.7,included
+mavg,4,Moving average 4,tp,Total precipitation,tp_mavg4,O3,O3,O3_mavg4,-0.0855609519357113,0.0855609519357113,128557,0.7,included
+mavg,4,Moving average 4,PM25,PM2.5,PM25_mavg4,PM10,PM10,PM10_mavg4,0.952062643347386,0.952062643347386,128557,0.7,excluded_high_correlation
+mavg,4,Moving average 4,PM25,PM2.5,PM25_mavg4,O3,O3,O3_mavg4,-0.343357616164086,0.343357616164086,128557,0.7,included
+mavg,4,Moving average 4,PM10,PM10,PM10_mavg4,O3,O3,O3_mavg4,-0.218381641421813,0.218381641421813,128557,0.7,included

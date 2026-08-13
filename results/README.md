@@ -19,6 +19,10 @@ individual-level study records.
   single lag 3 and moving average 4, based on 500 posterior samples;
 - `pooled_bdlnm_surfaces.csv`: posterior-mean exposure-lag-response surfaces
   across all nine environmental exposures.
+- `interaction_spearman_screen.csv`: Spearman-correlation screening of 72
+  prespecified exposure pairs at single lag 3 and moving average 4;
+- `interaction_models.csv`: posterior estimates from 64 IQR-scaled Bayesian
+  interaction models retained after correlation screening.
 
 Model estimates will be added as the corresponding analysis modules are
 completed.
