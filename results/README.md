@@ -29,6 +29,15 @@ individual-level study records.
   Poisson subgroup models at single lag 3 and moving average 4;
 - `subgroup_iqr_scaled_estimates.csv`: the same subgroup estimates rescaled to
   each subgroup's exposure IQR for comparable public presentation.
+- `sensitivity_linear_priors.csv`: estimates from 54 fixed-window models under
+  three PC-prior specifications;
+- `sensitivity_bdlnm_metrics.csv`: model diagnostics for 54 pooled B-DLNM
+  structural sensitivity models;
+- `sensitivity_bdlnm_slices.csv`: posterior-mean exposure-response slices under
+  alternative maximum-lag, lag-spline, and exposure-knot specifications;
+- `sensitivity_bdlnm_quantile_contrasts.csv`: 144 P10-versus-P50 and
+  P90-versus-P50 contrasts comparing the primary and alternative pooled
+  B-DLNM specifications.
 
-Model estimates will be added as the corresponding analysis modules are
-completed.
+All files in this directory are aggregate outputs selected for public release.
+Restricted row-level data and fitted model objects are not included.

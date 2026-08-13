@@ -1,0 +1,145 @@
+variable,exposure_type,lag_window,sensitivity_key,sensitivity_label,sensitivity_order,exposure_probability,RR,exposure,exposure_order,window_label,window_order,contrast_label
+t2m,lag,3,baseline,Primary specification,0,0.1,1.00245362366042,Temperature,1,Single lag 3,1,Exposure P10 vs P50
+t2m,lag,3,lag5,Maximum lag = 5 days,1,0.1,1.03290050655725,Temperature,1,Single lag 3,1,Exposure P10 vs P50
+t2m,lag,3,lag_df4,Lag spline df = 4,2,0.1,1.012743579109,Temperature,1,Single lag 3,1,Exposure P10 vs P50
+t2m,lag,3,knots_p33_p66,Exposure knots = P33/P66,3,0.1,0.996083992808356,Temperature,1,Single lag 3,1,Exposure P10 vs P50
+rh,lag,3,baseline,Primary specification,0,0.1,0.998038868582405,Relative humidity,2,Single lag 3,1,Exposure P10 vs P50
+rh,lag,3,lag5,Maximum lag = 5 days,1,0.1,0.998019100300876,Relative humidity,2,Single lag 3,1,Exposure P10 vs P50
+rh,lag,3,lag_df4,Lag spline df = 4,2,0.1,0.990842363520362,Relative humidity,2,Single lag 3,1,Exposure P10 vs P50
+rh,lag,3,knots_p33_p66,Exposure knots = P33/P66,3,0.1,1.00294877024483,Relative humidity,2,Single lag 3,1,Exposure P10 vs P50
+ssr,lag,3,baseline,Primary specification,0,0.1,0.98268744940251,Solar radiation,3,Single lag 3,1,Exposure P10 vs P50
+ssr,lag,3,lag5,Maximum lag = 5 days,1,0.1,0.970883864094272,Solar radiation,3,Single lag 3,1,Exposure P10 vs P50
+ssr,lag,3,lag_df4,Lag spline df = 4,2,0.1,0.970364952325032,Solar radiation,3,Single lag 3,1,Exposure P10 vs P50
+ssr,lag,3,knots_p33_p66,Exposure knots = P33/P66,3,0.1,0.984482521681517,Solar radiation,3,Single lag 3,1,Exposure P10 vs P50
+uv,lag,3,baseline,Primary specification,0,0.1,0.993650835913956,Wind speed,4,Single lag 3,1,Exposure P10 vs P50
+uv,lag,3,lag5,Maximum lag = 5 days,1,0.1,0.999985791454654,Wind speed,4,Single lag 3,1,Exposure P10 vs P50
+uv,lag,3,lag_df4,Lag spline df = 4,2,0.1,0.994510625210511,Wind speed,4,Single lag 3,1,Exposure P10 vs P50
+uv,lag,3,knots_p33_p66,Exposure knots = P33/P66,3,0.1,0.994786652071343,Wind speed,4,Single lag 3,1,Exposure P10 vs P50
+sp,lag,3,baseline,Primary specification,0,0.1,0.981665800975459,Surface pressure,5,Single lag 3,1,Exposure P10 vs P50
+sp,lag,3,lag5,Maximum lag = 5 days,1,0.1,0.881958530976207,Surface pressure,5,Single lag 3,1,Exposure P10 vs P50
+sp,lag,3,lag_df4,Lag spline df = 4,2,0.1,0.921369583051828,Surface pressure,5,Single lag 3,1,Exposure P10 vs P50
+sp,lag,3,knots_p33_p66,Exposure knots = P33/P66,3,0.1,0.98503165144253,Surface pressure,5,Single lag 3,1,Exposure P10 vs P50
+tp,lag,3,baseline,Primary specification,0,0.1,1.00415669448006,Total precipitation,6,Single lag 3,1,Exposure P10 vs P50
+tp,lag,3,lag5,Maximum lag = 5 days,1,0.1,0.999881370215086,Total precipitation,6,Single lag 3,1,Exposure P10 vs P50
+tp,lag,3,lag_df4,Lag spline df = 4,2,0.1,1.00801002395168,Total precipitation,6,Single lag 3,1,Exposure P10 vs P50
+tp,lag,3,knots_p33_p66,Exposure knots = P33/P66,3,0.1,1.00401353939639,Total precipitation,6,Single lag 3,1,Exposure P10 vs P50
+PM25,lag,3,baseline,Primary specification,0,0.1,0.994254869243701,PM2.5,7,Single lag 3,1,Exposure P10 vs P50
+PM25,lag,3,lag5,Maximum lag = 5 days,1,0.1,0.985205725082839,PM2.5,7,Single lag 3,1,Exposure P10 vs P50
+PM25,lag,3,lag_df4,Lag spline df = 4,2,0.1,0.991242538382319,PM2.5,7,Single lag 3,1,Exposure P10 vs P50
+PM25,lag,3,knots_p33_p66,Exposure knots = P33/P66,3,0.1,0.994305807387268,PM2.5,7,Single lag 3,1,Exposure P10 vs P50
+PM10,lag,3,baseline,Primary specification,0,0.1,0.989831891530476,PM10,8,Single lag 3,1,Exposure P10 vs P50
+PM10,lag,3,lag5,Maximum lag = 5 days,1,0.1,0.976413978781052,PM10,8,Single lag 3,1,Exposure P10 vs P50
+PM10,lag,3,lag_df4,Lag spline df = 4,2,0.1,0.985145489546533,PM10,8,Single lag 3,1,Exposure P10 vs P50
+PM10,lag,3,knots_p33_p66,Exposure knots = P33/P66,3,0.1,0.991323619618515,PM10,8,Single lag 3,1,Exposure P10 vs P50
+O3,lag,3,baseline,Primary specification,0,0.1,0.999269704943772,O3,9,Single lag 3,1,Exposure P10 vs P50
+O3,lag,3,lag5,Maximum lag = 5 days,1,0.1,1.00218362015912,O3,9,Single lag 3,1,Exposure P10 vs P50
+O3,lag,3,lag_df4,Lag spline df = 4,2,0.1,0.995981174987136,O3,9,Single lag 3,1,Exposure P10 vs P50
+O3,lag,3,knots_p33_p66,Exposure knots = P33/P66,3,0.1,0.99589339359521,O3,9,Single lag 3,1,Exposure P10 vs P50
+t2m,lag,3,baseline,Primary specification,0,0.9,0.990420029601565,Temperature,1,Single lag 3,1,Exposure P90 vs P50
+t2m,lag,3,lag5,Maximum lag = 5 days,1,0.9,0.968178646040912,Temperature,1,Single lag 3,1,Exposure P90 vs P50
+t2m,lag,3,lag_df4,Lag spline df = 4,2,0.9,0.969991603981324,Temperature,1,Single lag 3,1,Exposure P90 vs P50
+t2m,lag,3,knots_p33_p66,Exposure knots = P33/P66,3,0.9,0.985133201169923,Temperature,1,Single lag 3,1,Exposure P90 vs P50
+rh,lag,3,baseline,Primary specification,0,0.9,0.98919478208805,Relative humidity,2,Single lag 3,1,Exposure P90 vs P50
+rh,lag,3,lag5,Maximum lag = 5 days,1,0.9,0.976435869732089,Relative humidity,2,Single lag 3,1,Exposure P90 vs P50
+rh,lag,3,lag_df4,Lag spline df = 4,2,0.9,0.971900928482111,Relative humidity,2,Single lag 3,1,Exposure P90 vs P50
+rh,lag,3,knots_p33_p66,Exposure knots = P33/P66,3,0.9,0.993537482273728,Relative humidity,2,Single lag 3,1,Exposure P90 vs P50
+ssr,lag,3,baseline,Primary specification,0,0.9,0.987707066135425,Solar radiation,3,Single lag 3,1,Exposure P90 vs P50
+ssr,lag,3,lag5,Maximum lag = 5 days,1,0.9,0.981415117837202,Solar radiation,3,Single lag 3,1,Exposure P90 vs P50
+ssr,lag,3,lag_df4,Lag spline df = 4,2,0.9,0.981094443891432,Solar radiation,3,Single lag 3,1,Exposure P90 vs P50
+ssr,lag,3,knots_p33_p66,Exposure knots = P33/P66,3,0.9,0.990985830323994,Solar radiation,3,Single lag 3,1,Exposure P90 vs P50
+uv,lag,3,baseline,Primary specification,0,0.9,0.980180446931232,Wind speed,4,Single lag 3,1,Exposure P90 vs P50
+uv,lag,3,lag5,Maximum lag = 5 days,1,0.9,0.988010051732838,Wind speed,4,Single lag 3,1,Exposure P90 vs P50
+uv,lag,3,lag_df4,Lag spline df = 4,2,0.9,0.985913195015791,Wind speed,4,Single lag 3,1,Exposure P90 vs P50
+uv,lag,3,knots_p33_p66,Exposure knots = P33/P66,3,0.9,0.982549809336845,Wind speed,4,Single lag 3,1,Exposure P90 vs P50
+sp,lag,3,baseline,Primary specification,0,0.9,1.00612364878842,Surface pressure,5,Single lag 3,1,Exposure P90 vs P50
+sp,lag,3,lag5,Maximum lag = 5 days,1,0.9,1.05082914686112,Surface pressure,5,Single lag 3,1,Exposure P90 vs P50
+sp,lag,3,lag_df4,Lag spline df = 4,2,0.9,1.03453345471101,Surface pressure,5,Single lag 3,1,Exposure P90 vs P50
+sp,lag,3,knots_p33_p66,Exposure knots = P33/P66,3,0.9,1.00800811157372,Surface pressure,5,Single lag 3,1,Exposure P90 vs P50
+tp,lag,3,baseline,Primary specification,0,0.9,0.996593992494948,Total precipitation,6,Single lag 3,1,Exposure P90 vs P50
+tp,lag,3,lag5,Maximum lag = 5 days,1,0.9,0.987175715922949,Total precipitation,6,Single lag 3,1,Exposure P90 vs P50
+tp,lag,3,lag_df4,Lag spline df = 4,2,0.9,0.988285335707105,Total precipitation,6,Single lag 3,1,Exposure P90 vs P50
+tp,lag,3,knots_p33_p66,Exposure knots = P33/P66,3,0.9,0.996721663533109,Total precipitation,6,Single lag 3,1,Exposure P90 vs P50
+PM25,lag,3,baseline,Primary specification,0,0.9,1.00057256989249,PM2.5,7,Single lag 3,1,Exposure P90 vs P50
+PM25,lag,3,lag5,Maximum lag = 5 days,1,0.9,0.989927128659508,PM2.5,7,Single lag 3,1,Exposure P90 vs P50
+PM25,lag,3,lag_df4,Lag spline df = 4,2,0.9,1.0000359398509,PM2.5,7,Single lag 3,1,Exposure P90 vs P50
+PM25,lag,3,knots_p33_p66,Exposure knots = P33/P66,3,0.9,1.00086983930261,PM2.5,7,Single lag 3,1,Exposure P90 vs P50
+PM10,lag,3,baseline,Primary specification,0,0.9,1.00102988637047,PM10,8,Single lag 3,1,Exposure P90 vs P50
+PM10,lag,3,lag5,Maximum lag = 5 days,1,0.9,0.988645173536428,PM10,8,Single lag 3,1,Exposure P90 vs P50
+PM10,lag,3,lag_df4,Lag spline df = 4,2,0.9,0.995182471943435,PM10,8,Single lag 3,1,Exposure P90 vs P50
+PM10,lag,3,knots_p33_p66,Exposure knots = P33/P66,3,0.9,1.00332021628024,PM10,8,Single lag 3,1,Exposure P90 vs P50
+O3,lag,3,baseline,Primary specification,0,0.9,1.006504504386,O3,9,Single lag 3,1,Exposure P90 vs P50
+O3,lag,3,lag5,Maximum lag = 5 days,1,0.9,1.01730482923888,O3,9,Single lag 3,1,Exposure P90 vs P50
+O3,lag,3,lag_df4,Lag spline df = 4,2,0.9,1.01245005307161,O3,9,Single lag 3,1,Exposure P90 vs P50
+O3,lag,3,knots_p33_p66,Exposure knots = P33/P66,3,0.9,1.00245300689931,O3,9,Single lag 3,1,Exposure P90 vs P50
+t2m,mavg,4,baseline,Primary specification,0,0.1,1.00604462043992,Temperature,1,Moving average 4,2,Exposure P10 vs P50
+t2m,mavg,4,lag5,Maximum lag = 5 days,1,0.1,1.06119638448948,Temperature,1,Moving average 4,2,Exposure P10 vs P50
+t2m,mavg,4,lag_df4,Lag spline df = 4,2,0.1,1.00931520346946,Temperature,1,Moving average 4,2,Exposure P10 vs P50
+t2m,mavg,4,knots_p33_p66,Exposure knots = P33/P66,3,0.1,0.991308414008969,Temperature,1,Moving average 4,2,Exposure P10 vs P50
+rh,mavg,4,baseline,Primary specification,0,0.1,1.00343950358229,Relative humidity,2,Moving average 4,2,Exposure P10 vs P50
+rh,mavg,4,lag5,Maximum lag = 5 days,1,0.1,1.0114300355922,Relative humidity,2,Moving average 4,2,Exposure P10 vs P50
+rh,mavg,4,lag_df4,Lag spline df = 4,2,0.1,1.00309749332573,Relative humidity,2,Moving average 4,2,Exposure P10 vs P50
+rh,mavg,4,knots_p33_p66,Exposure knots = P33/P66,3,0.1,1.00607958626852,Relative humidity,2,Moving average 4,2,Exposure P10 vs P50
+ssr,mavg,4,baseline,Primary specification,0,0.1,0.980946048137654,Solar radiation,3,Moving average 4,2,Exposure P10 vs P50
+ssr,mavg,4,lag5,Maximum lag = 5 days,1,0.1,0.986016276187926,Solar radiation,3,Moving average 4,2,Exposure P10 vs P50
+ssr,mavg,4,lag_df4,Lag spline df = 4,2,0.1,0.98485367276366,Solar radiation,3,Moving average 4,2,Exposure P10 vs P50
+ssr,mavg,4,knots_p33_p66,Exposure knots = P33/P66,3,0.1,0.982938715308404,Solar radiation,3,Moving average 4,2,Exposure P10 vs P50
+uv,mavg,4,baseline,Primary specification,0,0.1,1.01309511843221,Wind speed,4,Moving average 4,2,Exposure P10 vs P50
+uv,mavg,4,lag5,Maximum lag = 5 days,1,0.1,0.989450165845473,Wind speed,4,Moving average 4,2,Exposure P10 vs P50
+uv,mavg,4,lag_df4,Lag spline df = 4,2,0.1,1.0169911244449,Wind speed,4,Moving average 4,2,Exposure P10 vs P50
+uv,mavg,4,knots_p33_p66,Exposure knots = P33/P66,3,0.1,1.01536496053728,Wind speed,4,Moving average 4,2,Exposure P10 vs P50
+sp,mavg,4,baseline,Primary specification,0,0.1,0.921500844804062,Surface pressure,5,Moving average 4,2,Exposure P10 vs P50
+sp,mavg,4,lag5,Maximum lag = 5 days,1,0.1,0.876362449869395,Surface pressure,5,Moving average 4,2,Exposure P10 vs P50
+sp,mavg,4,lag_df4,Lag spline df = 4,2,0.1,0.891479715605417,Surface pressure,5,Moving average 4,2,Exposure P10 vs P50
+sp,mavg,4,knots_p33_p66,Exposure knots = P33/P66,3,0.1,0.92863225530796,Surface pressure,5,Moving average 4,2,Exposure P10 vs P50
+tp,mavg,4,baseline,Primary specification,0,0.1,1.00720876683581,Total precipitation,6,Moving average 4,2,Exposure P10 vs P50
+tp,mavg,4,lag5,Maximum lag = 5 days,1,0.1,1.00474369665604,Total precipitation,6,Moving average 4,2,Exposure P10 vs P50
+tp,mavg,4,lag_df4,Lag spline df = 4,2,0.1,1.00284559311792,Total precipitation,6,Moving average 4,2,Exposure P10 vs P50
+tp,mavg,4,knots_p33_p66,Exposure knots = P33/P66,3,0.1,1.00814232011638,Total precipitation,6,Moving average 4,2,Exposure P10 vs P50
+PM25,mavg,4,baseline,Primary specification,0,0.1,0.973616500581349,PM2.5,7,Moving average 4,2,Exposure P10 vs P50
+PM25,mavg,4,lag5,Maximum lag = 5 days,1,0.1,1.00516739971227,PM2.5,7,Moving average 4,2,Exposure P10 vs P50
+PM25,mavg,4,lag_df4,Lag spline df = 4,2,0.1,0.956472870851389,PM2.5,7,Moving average 4,2,Exposure P10 vs P50
+PM25,mavg,4,knots_p33_p66,Exposure knots = P33/P66,3,0.1,0.970712757069018,PM2.5,7,Moving average 4,2,Exposure P10 vs P50
+PM10,mavg,4,baseline,Primary specification,0,0.1,0.961294694862015,PM10,8,Moving average 4,2,Exposure P10 vs P50
+PM10,mavg,4,lag5,Maximum lag = 5 days,1,0.1,0.998280147009638,PM10,8,Moving average 4,2,Exposure P10 vs P50
+PM10,mavg,4,lag_df4,Lag spline df = 4,2,0.1,0.953705406515242,PM10,8,Moving average 4,2,Exposure P10 vs P50
+PM10,mavg,4,knots_p33_p66,Exposure knots = P33/P66,3,0.1,0.960476032416168,PM10,8,Moving average 4,2,Exposure P10 vs P50
+O3,mavg,4,baseline,Primary specification,0,0.1,0.983163109502714,O3,9,Moving average 4,2,Exposure P10 vs P50
+O3,mavg,4,lag5,Maximum lag = 5 days,1,0.1,0.998477161276519,O3,9,Moving average 4,2,Exposure P10 vs P50
+O3,mavg,4,lag_df4,Lag spline df = 4,2,0.1,0.969919843911191,O3,9,Moving average 4,2,Exposure P10 vs P50
+O3,mavg,4,knots_p33_p66,Exposure knots = P33/P66,3,0.1,0.983054305978825,O3,9,Moving average 4,2,Exposure P10 vs P50
+t2m,mavg,4,baseline,Primary specification,0,0.9,0.973228690779705,Temperature,1,Moving average 4,2,Exposure P90 vs P50
+t2m,mavg,4,lag5,Maximum lag = 5 days,1,0.9,0.946178891045041,Temperature,1,Moving average 4,2,Exposure P90 vs P50
+t2m,mavg,4,lag_df4,Lag spline df = 4,2,0.9,0.971673538289269,Temperature,1,Moving average 4,2,Exposure P90 vs P50
+t2m,mavg,4,knots_p33_p66,Exposure knots = P33/P66,3,0.9,0.963868592565055,Temperature,1,Moving average 4,2,Exposure P90 vs P50
+rh,mavg,4,baseline,Primary specification,0,0.9,0.993462540661074,Relative humidity,2,Moving average 4,2,Exposure P90 vs P50
+rh,mavg,4,lag5,Maximum lag = 5 days,1,0.9,0.980534293053262,Relative humidity,2,Moving average 4,2,Exposure P90 vs P50
+rh,mavg,4,lag_df4,Lag spline df = 4,2,0.9,1.00153618624461,Relative humidity,2,Moving average 4,2,Exposure P90 vs P50
+rh,mavg,4,knots_p33_p66,Exposure knots = P33/P66,3,0.9,0.995671864639025,Relative humidity,2,Moving average 4,2,Exposure P90 vs P50
+ssr,mavg,4,baseline,Primary specification,0,0.9,0.993435762110328,Solar radiation,3,Moving average 4,2,Exposure P90 vs P50
+ssr,mavg,4,lag5,Maximum lag = 5 days,1,0.9,0.992855431527128,Solar radiation,3,Moving average 4,2,Exposure P90 vs P50
+ssr,mavg,4,lag_df4,Lag spline df = 4,2,0.9,1.00055818042221,Solar radiation,3,Moving average 4,2,Exposure P90 vs P50
+ssr,mavg,4,knots_p33_p66,Exposure knots = P33/P66,3,0.9,0.995854424171088,Solar radiation,3,Moving average 4,2,Exposure P90 vs P50
+uv,mavg,4,baseline,Primary specification,0,0.9,0.986763376665585,Wind speed,4,Moving average 4,2,Exposure P90 vs P50
+uv,mavg,4,lag5,Maximum lag = 5 days,1,0.9,0.978790796422189,Wind speed,4,Moving average 4,2,Exposure P90 vs P50
+uv,mavg,4,lag_df4,Lag spline df = 4,2,0.9,0.991871027336932,Wind speed,4,Moving average 4,2,Exposure P90 vs P50
+uv,mavg,4,knots_p33_p66,Exposure knots = P33/P66,3,0.9,0.98982704356319,Wind speed,4,Moving average 4,2,Exposure P90 vs P50
+sp,mavg,4,baseline,Primary specification,0,0.9,1.02512855970025,Surface pressure,5,Moving average 4,2,Exposure P90 vs P50
+sp,mavg,4,lag5,Maximum lag = 5 days,1,0.9,1.0765447193679,Surface pressure,5,Moving average 4,2,Exposure P90 vs P50
+sp,mavg,4,lag_df4,Lag spline df = 4,2,0.9,1.03455141101187,Surface pressure,5,Moving average 4,2,Exposure P90 vs P50
+sp,mavg,4,knots_p33_p66,Exposure knots = P33/P66,3,0.9,1.02691252546602,Surface pressure,5,Moving average 4,2,Exposure P90 vs P50
+tp,mavg,4,baseline,Primary specification,0,0.9,0.991520543192927,Total precipitation,6,Moving average 4,2,Exposure P90 vs P50
+tp,mavg,4,lag5,Maximum lag = 5 days,1,0.9,0.993741041870391,Total precipitation,6,Moving average 4,2,Exposure P90 vs P50
+tp,mavg,4,lag_df4,Lag spline df = 4,2,0.9,0.990390279892527,Total precipitation,6,Moving average 4,2,Exposure P90 vs P50
+tp,mavg,4,knots_p33_p66,Exposure knots = P33/P66,3,0.9,0.991730454284408,Total precipitation,6,Moving average 4,2,Exposure P90 vs P50
+PM25,mavg,4,baseline,Primary specification,0,0.9,1.01498360490761,PM2.5,7,Moving average 4,2,Exposure P90 vs P50
+PM25,mavg,4,lag5,Maximum lag = 5 days,1,0.9,0.986738054655892,PM2.5,7,Moving average 4,2,Exposure P90 vs P50
+PM25,mavg,4,lag_df4,Lag spline df = 4,2,0.9,0.996677122173161,PM2.5,7,Moving average 4,2,Exposure P90 vs P50
+PM25,mavg,4,knots_p33_p66,Exposure knots = P33/P66,3,0.9,1.01200408514585,PM2.5,7,Moving average 4,2,Exposure P90 vs P50
+PM10,mavg,4,baseline,Primary specification,0,0.9,1.00565373152103,PM10,8,Moving average 4,2,Exposure P90 vs P50
+PM10,mavg,4,lag5,Maximum lag = 5 days,1,0.9,0.987357651483988,PM10,8,Moving average 4,2,Exposure P90 vs P50
+PM10,mavg,4,lag_df4,Lag spline df = 4,2,0.9,0.993938019270001,PM10,8,Moving average 4,2,Exposure P90 vs P50
+PM10,mavg,4,knots_p33_p66,Exposure knots = P33/P66,3,0.9,1.00419279425258,PM10,8,Moving average 4,2,Exposure P90 vs P50
+O3,mavg,4,baseline,Primary specification,0,0.9,1.01166813311041,O3,9,Moving average 4,2,Exposure P90 vs P50
+O3,mavg,4,lag5,Maximum lag = 5 days,1,0.9,1.00434833913074,O3,9,Moving average 4,2,Exposure P90 vs P50
+O3,mavg,4,lag_df4,Lag spline df = 4,2,0.9,0.997049628970143,O3,9,Moving average 4,2,Exposure P90 vs P50
+O3,mavg,4,knots_p33_p66,Exposure knots = P33/P66,3,0.9,1.01248262507824,O3,9,Moving average 4,2,Exposure P90 vs P50

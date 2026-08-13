@@ -8,6 +8,6 @@ Work in progress.
 - [x] Bayesian conditional Poisson models
 - [x] Pooled B-DLNM module
 - [x] Exploratory spatial B-DLNM module
-- [ ] Interaction, subgroup, and sensitivity modules
+- [x] Interaction, subgroup, and sensitivity modules
 - [ ] Selected aggregate results and figures
 - [ ] Documentation and reproducibility checks

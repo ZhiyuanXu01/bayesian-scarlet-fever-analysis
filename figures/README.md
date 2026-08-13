@@ -24,10 +24,13 @@ release.
 - `subgroup_iqr_scaled_rr_heatmap.png`: subgroup-specific relative risks per
   exposure IQR across age, sex, period, and seasonal groups; matched strata
   were assigned from the case record and retained with all referent days.
+- `sensitivity_bdlnm_quantile_contrasts.png`: posterior central relative-risk
+  estimates at exposure P10 and P90 under the primary pooled B-DLNM and three
+  alternative structural specifications.
 
 The spatial probability maps are aggregate outputs from the original
 high-memory SB-DLNM run. Full spatial models were not refitted on the local
 desktop during repository restructuring.
 
-Additional model-result figures will be added as the analysis modules are
-completed.
+All figures in this directory contain aggregate results selected for public
+release.

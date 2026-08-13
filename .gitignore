@@ -99,3 +99,8 @@ Thumbs.db
 !results/subgroup_models.csv
 !results/subgroup_iqr_scaled_estimates.csv
 !figures/subgroup_iqr_scaled_rr_heatmap.png
+!results/sensitivity_linear_priors.csv
+!results/sensitivity_bdlnm_metrics.csv
+!results/sensitivity_bdlnm_slices.csv
+!results/sensitivity_bdlnm_quantile_contrasts.csv
+!figures/sensitivity_bdlnm_quantile_contrasts.png
