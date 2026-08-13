@@ -12,10 +12,31 @@ The following components were validated on a standard desktop environment:
 - county-boundary processing, point-to-county assignment, and adjacency graph
   construction;
 - spatial B-DLNM design-matrix construction.
+- 64 IQR-scaled environmental interaction models;
+- 216 matched-stratum subgroup models;
+- 54 PC-prior sensitivity models;
+- 54 pooled B-DLNM structural sensitivity models;
+- public repository integrity checks that do not require restricted data.
 
 The spatial preparation retained 128,508 of 128,557 analytical rows. The 49
 records that did not intersect a study county boundary are excluded only from
 the spatial models.
+
+## Observed desktop computation
+
+Checkpoint records from the validated local runs reported approximately:
+
+| Analysis batch                               | Models | Summed elapsed time |
+| -------------------------------------------- | ------:| -------------------:|
+| Conditional Poisson analysis                 | 189    | 20.1 min            |
+| Pooled B-DLNM fitting and posterior sampling | 18     | 17.8 min            |
+| Environmental interactions                   | 64     | 7.3 min             |
+| Prespecified subgroups                       | 216    | 9.8 min             |
+| PC-prior sensitivity                         | 54     | 5.6 min             |
+| Pooled B-DLNM structural sensitivity         | 54     | 10.9 min            |
+
+These values are hardware- and thread-dependent and should be treated as
+approximate computational guidance rather than benchmarks.
 
 ## Full spatial B-DLNM
 
