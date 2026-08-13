@@ -65,6 +65,8 @@ figures/*
 !results/conditional_poisson_models.csv
 !figures/conditional_poisson_single_lag_rr.png
 !figures/conditional_poisson_moving_average_rr.png
+!figures/spatial_postprob_pm10_lag0.png
+!figures/spatial_postprob_surface_pressure_lag3.png
 
 # Logs and operating-system files
 *.log

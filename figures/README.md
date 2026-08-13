@@ -13,6 +13,15 @@ release.
   single lag 3 with 95% credible intervals;
 - `pooled_bdlnm_mavg4_slices.png`: nonlinear exposure-response curves at moving
   average 4 with 95% credible intervals.
+- `spatial_postprob_pm10_lag0.png`: county-level posterior probability of
+  increased risk for PM10 at lag 0, comparing P90 with P50;
+- `spatial_postprob_surface_pressure_lag3.png`: county-level posterior
+  probability of increased risk for surface pressure at lag 3, comparing P90
+  with P50.
+
+The spatial probability maps are aggregate outputs from the original
+high-memory SB-DLNM run. Full spatial models were not refitted on the local
+desktop during repository restructuring.
 
 Additional model-result figures will be added as the analysis modules are
 completed.

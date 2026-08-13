@@ -7,7 +7,7 @@ Work in progress.
 - [x] Descriptive-analysis module
 - [x] Bayesian conditional Poisson models
 - [x] Pooled B-DLNM module
-- [ ] Exploratory spatial B-DLNM module
+- [x] Exploratory spatial B-DLNM module
 - [ ] Interaction, subgroup, and sensitivity modules
 - [ ] Selected aggregate results and figures
 - [ ] Documentation and reproducibility checks
