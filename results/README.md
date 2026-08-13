@@ -23,6 +23,12 @@ individual-level study records.
   prespecified exposure pairs at single lag 3 and moving average 4;
 - `interaction_models.csv`: posterior estimates from 64 IQR-scaled Bayesian
   interaction models retained after correlation screening.
+- `subgroup_sample_sizes.csv`: aggregate analytical-row and matched-stratum
+  counts for 12 prespecified population, age, sex, period, and seasonal groups;
+- `subgroup_models.csv`: posterior estimates from 216 Bayesian conditional
+  Poisson subgroup models at single lag 3 and moving average 4;
+- `subgroup_iqr_scaled_estimates.csv`: the same subgroup estimates rescaled to
+  each subgroup's exposure IQR for comparable public presentation.
 
 Model estimates will be added as the corresponding analysis modules are
 completed.

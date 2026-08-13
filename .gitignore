@@ -95,3 +95,7 @@ Thumbs.db
 !results/interaction_spearman_screen.csv
 !results/interaction_models.csv
 !figures/interaction_ratio_heatmap.png
+!results/subgroup_sample_sizes.csv
+!results/subgroup_models.csv
+!results/subgroup_iqr_scaled_estimates.csv
+!figures/subgroup_iqr_scaled_rr_heatmap.png

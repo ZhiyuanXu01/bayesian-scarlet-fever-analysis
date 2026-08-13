@@ -21,6 +21,9 @@ release.
 - `interaction_ratio_heatmap.png`: IQR-scaled multiplicative interaction
   ratios for exposure pairs at single lag 3 and moving average 4; grey cells
   identify pairs excluded by the prespecified correlation screen.
+- `subgroup_iqr_scaled_rr_heatmap.png`: subgroup-specific relative risks per
+  exposure IQR across age, sex, period, and seasonal groups; matched strata
+  were assigned from the case record and retained with all referent days.
 
 The spatial probability maps are aggregate outputs from the original
 high-memory SB-DLNM run. Full spatial models were not refitted on the local

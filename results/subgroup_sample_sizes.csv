@@ -1,0 +1,13 @@
+group_key,group_type,subgroup,group_order,subgroup_order,matched_strata,analytical_rows,case_days,minimum_rows_per_stratum,median_rows_per_stratum,maximum_rows_per_stratum,strata_without_one_case_day
+Overall__Overall,Overall,Overall,1,1,29147,128557,29147,4,4,5,0
+Age__Age <6,Age,Age <6,2,1,14422,63647,14422,4,4,5,0
+Age__Age >=6,Age,Age >=6,2,2,14725,64910,14725,4,4,5,0
+Sex__Male,Sex,Male,3,1,17735,78297,17735,4,4,5,0
+Sex__Female,Sex,Female,3,2,11412,50260,11412,4,4,5,0
+Period__2005-2010,Period,2005-2010,4,1,2262,10008,2262,4,4,5,0
+Period__2011-2019,Period,2011-2019,4,2,18783,82850,18783,4,4,5,0
+Period__2020-2024,Period,2020-2024,4,3,8099,35686,8099,4,4,5,0
+Season__Spring,Season,Spring,5,1,8956,39632,8956,4,4,5,0
+Season__Summer,Season,Summer,5,2,6447,28367,6447,4,4,5,0
+Season__Autumn,Season,Autumn,5,3,6323,27664,6323,4,4,5,0
+Season__Winter,Season,Winter,5,4,7421,32894,7421,4,4,5,0
