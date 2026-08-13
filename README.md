@@ -147,7 +147,7 @@ run_all_linear_prior_sensitivity_models()
 run_all_bdlnm_sensitivity_models()
 ```
 
-Full spatial B-DLNMs are not part of the default desktop workflow. The original spatial analysis used a 128 GB cloud environment. See [`COMPUTE_REQUIREMENTS.md`](COMPUTE_REQUIREMENTS.md) for details.
+Full spatial B-DLNMs are not part of the default desktop workflow. The original spatial analysis used a 128 GB RAM cloud environment. See [`COMPUTE_REQUIREMENTS.md`](COMPUTE_REQUIREMENTS.md) for details.
 
 ## Public repository validation
 
